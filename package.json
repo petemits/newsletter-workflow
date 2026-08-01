@@ -1,0 +1,20 @@
+{
+  "name": "newsletter-workflow",
+  "version": "1.0.0",
+  "description": "Automated newsletter system",
+  "main": "simple-runner.js",
+  "scripts": {
+    "start": "node simple-runner.js",
+    "setup": "node setup.js",
+    "test": "node simple-runner.js --test"
+  },
+  "dependencies": {
+    "googleapis": "^126.0.1",
+    "nodemailer": "^6.9.7",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["newsletter", "automation", "workflow"],
+  "author": "Your Name",
+  "license": "MIT"
+}
